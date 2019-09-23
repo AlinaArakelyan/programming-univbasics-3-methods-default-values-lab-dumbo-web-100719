@@ -6,5 +6,5 @@ def meal_choice (veg1, veg2, protein = "meat")
 end
 
 def ret_value (veg1, veg2, protein = "meat")
-  return "A plate of "
+  return "A plate of #{protein} with #{veg1} and #{veg2}."
 end
